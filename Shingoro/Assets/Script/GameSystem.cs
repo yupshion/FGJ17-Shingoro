@@ -14,6 +14,7 @@ public class GameSystem : MonoBehaviour {
 	private GameObject P2Win;
 	private bool finished;
 
+
 	private Vector3 posP1 = new Vector3(Screen.width /2 , Screen.height /4, 0);
 	private Vector3 posP2 = new Vector3(Screen.width /2 , Screen.height * 3 /4, 0);
 
