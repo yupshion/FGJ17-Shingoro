@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class GameSystem : MonoBehaviour {
 
-	public float GameTime;
+	public float GameTime = 60f;
 	public Text GameTimeText;
 
 	[SerializeField]
@@ -22,7 +22,7 @@ public class GameSystem : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		finished = false;
-		GameTime = 60f;
+		//GameTime;
 		GameTimeText.text = "" + GameTime.ToString();
 	}
 	
