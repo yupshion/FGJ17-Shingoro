@@ -3,15 +3,23 @@ using System.Collections;
 
 public class drawws : MonoBehaviour
 {
+	public bool useRandam = true;
 	public int charNo = 1;
 	public string siteName = "https://drawws.kgr-lab.com";
 
 	private GameObject armr, arml;
 	private bool flag = false;
 
+	[SerializeField]
+	private GameObject m_shingorow;
+
 	// Use this for initialization
 	IEnumerator Start ()
 	{
+		if(useRandam){
+			charNo = Random.Range (1, 14);
+		}
+
 		GameObject body = transform.Find ("body").gameObject;
 		Renderer bodyRenderer = body.GetComponent<Renderer> ();
 
