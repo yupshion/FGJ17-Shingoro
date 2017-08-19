@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameSystem : MonoBehaviour {
 
@@ -21,7 +22,7 @@ public class GameSystem : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		finished = false;
-		GameTime = 60f;
+		GameTime = 10f;
 		GameTimeText.text = "" + GameTime.ToString();
 	}
 	
@@ -45,7 +46,10 @@ public class GameSystem : MonoBehaviour {
 
 	void CheckResult(){
 		Transform mochiPos = GameObject.Find ("Mochi").GetComponent<Transform>();
-		if(mochiPos.position.y > 0 ){
+        //シーンを重ねる
+        SceneManager.LoadScene("Workshop", LoadSceneMode.Additive);
+
+        if (mochiPos.position.y > 0 ){
 			P1Win.SetActive (true);
 
 		}else{
