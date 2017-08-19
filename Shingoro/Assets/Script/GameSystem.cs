@@ -21,7 +21,7 @@ public class GameSystem : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		finished = false;
-		GameTime = 60f;
+		GameTime = 10f;
 		GameTimeText.text = "" + GameTime.ToString();
 	}
 	
