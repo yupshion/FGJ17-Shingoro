@@ -15,9 +15,9 @@ public class WorkshopManager : MonoBehaviour {
 
 		float marge = Screen.height / 6;
 
-		int idx = Random.Range (1, 15);
+		int idx = Random.Range (1, 14);
 
-		for(int j=1; j <2; j++){
+		for(int j=0; j <2; j++){
 			for(int i=0; i < 5; i++){
 
 				GameObject workshopchara = Instantiate(m_prefab, new Vector3(Screen.width * j, marge * (i +1), 0), Quaternion.identity);
