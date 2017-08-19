@@ -6,9 +6,17 @@ public class BallController : MonoBehaviour
 {
 
     public Vector3 targetPos;       //目標とする位置
-    Vector3 acc, vel, pos;
+    public Vector3 targetPos1, targetPos2, targetPos3, targetPos4;       //目標とする位置
 
-    GameObject Glove1, Glove2, Glove3, Glove4;
+    Vector3 acc1, acc2, acc3, acc4;
+    Vector3 vel1, vel2, vel3, vel4;
+    Vector3 pos1, pos2, pos3, pos4;
+
+    Vector3 acc;
+    Vector3 vel;
+    Vector3 pos;
+
+    public GameObject Glove1, Glove2, Glove3, Glove4;      //1P左、右、2P左、右
 
     void Start()
     {
@@ -54,6 +62,9 @@ public class BallController : MonoBehaviour
         }
         */
 
+        //押しているか判定を取る
+        OnTouchDown();
+
 
         if (OnTouchDown())
         {
@@ -63,13 +74,41 @@ public class BallController : MonoBehaviour
         }
         else
         {
-            Vector3 diff = this.targetPos - this.pos;
-            this.acc = diff * 0.1f;
-            this.vel += this.acc;
-            this.vel *= 0.9f;
-            this.pos += this.vel;
+            //   Glove1;
+            //   Glove2;
+            //   Glove3;
+            //   Glove4;
+            //Vector3 diff = this.targetPos - this.pos;   //差を計算する
+            //this.acc = diff * 0.1f; //加速度を計算
+            //this.vel += this.acc;
+            //this.vel *= 0.9f;
+            //this.pos += this.vel;
+
+            Vector3 diff1 = this.targetPos1 - Glove1.transform.position;   //差を計算する
+            this.acc1 = diff1 * 0.1f; //加速度を計算
+            this.vel1 += this.acc1;
+            this.vel1 *= 0.9f;
+            Glove1.transform.position += this.vel1;
+
+            Vector3 diff2 = this.targetPos2 - Glove2.transform.position;   //差を計算する
+            this.acc2 = diff2 * 0.1f; //加速度を計算
+            this.vel2 += this.acc2;
+            this.vel2 *= 0.9f;
+            Glove2.transform.position += this.vel2;
+
+            Vector3 diff3 = this.targetPos3 - Glove3.transform.position;   //差を計算する
+            this.acc3 = diff3 * 0.1f; //加速度を計算
+            this.vel3 += this.acc3;
+            this.vel3 *= 0.9f;
+            Glove3.transform.position += this.vel3;
+
+            Vector3 diff4 = this.targetPos4 - Glove4.transform.position;   //差を計算する
+            this.acc4 = diff4 * 0.1f; //加速度を計算
+            this.vel4 += this.acc4;
+            this.vel4 *= 0.9f;
+            Glove4.transform.position += this.vel4;
         }
-        transform.position = this.pos;
+        //transform.position = this.pos;
     }
 
     //スマホ向け そのオブジェクトがタッチされていたらtrue（マルチタップ対応）
@@ -86,21 +125,26 @@ public class BallController : MonoBehaviour
                 // タッチしているかどうか
                 if (t.phase != TouchPhase.Ended)
                 {
-                    
+                    //タッチしている場所を特定する
+                    Vector3 vec = t.position;
+
                     //タッチしている場所が上下判定する
-                    if(t.position.y < Screen.height / 2)
+                    //TODO：Z軸がカメラの位置になってしまう為、無理やり0に…。
+                    if (t.position.y < Screen.height / 2)
                     {
                         //1P側
 
                         if (t.position.x < Screen.width / 2)
                         {
                             //左
-
+                            Glove1.transform.position = Camera.main.ScreenToWorldPoint(vec);
+                            Glove1.transform.position = new Vector3(Glove1.transform.position.x, Glove1.transform.position.y,0);
                         }
                         else
                         {
                             //右
-
+                            Glove2.transform.position = Camera.main.ScreenToWorldPoint(vec);
+                            Glove2.transform.position = new Vector3(Glove2.transform.position.x, Glove2.transform.position.y, 0);
                         }
 
                     }
@@ -110,14 +154,16 @@ public class BallController : MonoBehaviour
                         if (t.position.x < Screen.width / 2)
                         {
                             //左
-
+                            Glove3.transform.position = Camera.main.ScreenToWorldPoint(vec);
+                            Glove3.transform.position = new Vector3(Glove3.transform.position.x, Glove3.transform.position.y, 0);
                         }
                         else
                         {
                             //右
+                            Glove4.transform.position = Camera.main.ScreenToWorldPoint(vec);
+                            Glove4.transform.position = new Vector3(Glove4.transform.position.x, Glove4.transform.position.y, 0);
 
                         }
-
                     }
                     /*
                     //タッチした位置からRayを飛ばす
