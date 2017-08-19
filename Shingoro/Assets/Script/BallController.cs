@@ -36,8 +36,47 @@ public class BallController : MonoBehaviour
         /*
         if (Input.GetMouseButton(0))
         {
-            this.pos = Camera.main.ScreenPointToRay(Input.mousePosition).origin;
-            this.pos.z = 0;
+
+            // タッチしている場所を特定する
+            Vector3 vec = Camera.main.ScreenPointToRay(Input.mousePosition).origin; ;
+
+            //タッチしている場所が上下判定する
+            //TODO：Z軸がカメラの位置になってしまう為、無理やり0に…。
+            if (Camera.main.ScreenPointToRay(Input.mousePosition).origin.y < Screen.height / 2)
+            {
+                //1P側
+
+                if (Camera.main.ScreenPointToRay(Input.mousePosition).origin.x < Screen.width / 2)
+                {
+                    //左
+                    Glove1.transform.position = Camera.main.ScreenToWorldPoint(vec);
+                    Glove1.transform.position = new Vector3(Glove1.transform.position.x, Glove1.transform.position.y, 0);
+                }
+                else
+                {
+                    //右
+                    Glove2.transform.position = Camera.main.ScreenToWorldPoint(vec);
+                    Glove2.transform.position = new Vector3(Glove2.transform.position.x, Glove2.transform.position.y, 0);
+                }
+
+            }
+            else
+            {
+                //2P側
+                if (Camera.main.ScreenPointToRay(Input.mousePosition).origin.x < Screen.width / 2)
+                {
+                    //左
+                    Glove3.transform.position = Camera.main.ScreenToWorldPoint(vec);
+                    Glove3.transform.position = new Vector3(Glove3.transform.position.x, Glove3.transform.position.y, 0);
+                }
+                else
+                {
+                    //右
+                    Glove4.transform.position = Camera.main.ScreenToWorldPoint(vec);
+                    Glove4.transform.position = new Vector3(Glove4.transform.position.x, Glove4.transform.position.y, 0);
+
+                }
+            }
         }
         else
         {
@@ -47,6 +86,7 @@ public class BallController : MonoBehaviour
             this.vel *= 0.9f;
             this.pos += this.vel;
         }
+        
         */
 
         /*
