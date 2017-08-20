@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1559875400	back			\Default Work Unit\back	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	940852889	back	Y:\Desktop\Shingoro beta\wwise_test\.cache\Windows\SFX\back_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\back		105884
+

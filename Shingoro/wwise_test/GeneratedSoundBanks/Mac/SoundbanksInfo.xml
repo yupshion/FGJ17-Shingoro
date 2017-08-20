@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="125">
+	<RootPaths>
+		<ProjectRoot>/Users/cobaltr/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/Shingoro beta/wwise_test/</ProjectRoot>
+		<SourceFilesRoot>/Users/cobaltr/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/Shingoro beta/wwise_test/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/cobaltr/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/Shingoro beta/wwise_test/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/cobaltr/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/Shingoro beta/wwise_test/GeneratedSoundBanks/Mac/</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="737535402" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\BGM_title</ObjectPath>
+			<ShortName>BGM_title</ShortName>
+			<Path>BGM_title.bnk</Path>
+			<IncludedEvents>
+				<Event Id="737535402" Name="BGM_title" ObjectPath="\Events\Default Work Unit\BGM_title"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="553484404" Language="SFX">
+					<ShortName>BGM_title.wav</ShortName>
+					<Path>SFX/BGM_title_9452F465.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="982796106" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\next</ObjectPath>
+			<ShortName>next</ShortName>
+			<Path>next.bnk</Path>
+			<IncludedEvents>
+				<Event Id="982796106" Name="next" ObjectPath="\Events\Default Work Unit\next"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="130346045" Language="SFX">
+					<ShortName>next.wav</ShortName>
+					<Path>SFX/next_53CEE377.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1116398592" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\hit</ObjectPath>
+			<ShortName>hit</ShortName>
+			<Path>hit.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1116398592" Name="hit" ObjectPath="\Events\Default Work Unit\hit"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="392488808" Language="SFX">
+					<ShortName>hit_middle_2.wav</ShortName>
+					<Path>SFX/hit_middle_2_FDE5A151.wem</Path>
+				</File>
+				<File Id="531972472" Language="SFX">
+					<ShortName>hit_tail_2.wav</ShortName>
+					<Path>SFX/hit_tail_2_0CC293B1.wem</Path>
+				</File>
+				<File Id="634157147" Language="SFX">
+					<ShortName>hit_middle_1.wav</ShortName>
+					<Path>SFX/hit_middle_1_50A23462.wem</Path>
+				</File>
+				<File Id="917354115" Language="SFX">
+					<ShortName>hit_tail_1.wav</ShortName>
+					<Path>SFX/hit_tail_1_F90C34CE.wem</Path>
+				</File>
+				<File Id="985797129" Language="SFX">
+					<ShortName>hit_head_2.wav</ShortName>
+					<Path>SFX/hit_head_2_53CEE377.wem</Path>
+				</File>
+				<File Id="1006958241" Language="SFX">
+					<ShortName>hit_head_1.wav</ShortName>
+					<Path>SFX/hit_head_1_53CEE377.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1281810935" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\start</ObjectPath>
+			<ShortName>start</ShortName>
+			<Path>start.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1281810935" Name="start" ObjectPath="\Events\Default Work Unit\start"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="1060621102" Language="SFX">
+					<ShortName>start.wav</ShortName>
+					<Path>SFX/start_53CEE377.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1559875400" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\back</ObjectPath>
+			<ShortName>back</ShortName>
+			<Path>back.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1559875400" Name="back" ObjectPath="\Events\Default Work Unit\back"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="940852889" Language="SFX">
+					<ShortName>back.wav</ShortName>
+					<Path>SFX/back_53CEE377.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="2944413750" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\BGM_battle</ObjectPath>
+			<ShortName>BGM_battle</ShortName>
+			<Path>BGM_battle.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2944413750" Name="BGM_battle" ObjectPath="\Events\Default Work Unit\BGM_battle"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="477537827" Language="SFX">
+					<ShortName>BGM_battle.wav</ShortName>
+					<Path>SFX/BGM_battle_9452F465.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

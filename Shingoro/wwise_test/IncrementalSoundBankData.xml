@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementalBankBuild Version="6" Flags="878078161">
+	<Platform GUID="{B6F77314-056A-4B4C-AE6C-ACB9EF7E70C6}">
+		<Banks>
+			<Language ID="0">
+				<File Name="Init" Hash="2249455277" Timestamp="131476364330000000"/>
+				<File Name="hit1" Hash="1802472131" Timestamp="131476364330000000"/>
+			</Language>
+			<Language ID="393239870">
+				<File Name="BGM_battle" Hash="2766603393" Timestamp="131476639780000000"/>
+				<File Name="BGM_title" Hash="2707209644" Timestamp="131476639780000000"/>
+				<File Name="Init" Hash="3464367062" Timestamp="131476608090000000"/>
+				<File Name="back" Hash="1278356711" Timestamp="131476639780000000"/>
+				<File Name="hit" Hash="1184146186" Timestamp="131476639780000000"/>
+				<File Name="hit1" Hash="1437866709" Timestamp="131476377320000000"/>
+				<File Name="next" Hash="1308870080" Timestamp="131476639780000000"/>
+				<File Name="start" Hash="3227315858" Timestamp="131476639780000000"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="3420015966" Timestamp="131476639780000000"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+	<Platform GUID="{12B0A428-3F9E-4B6F-8E14-E8FD4DB5BED0}">
+		<Banks>
+			<Language ID="0">
+				<File Name="Init" Hash="3859070845" Timestamp="131476364320000000"/>
+				<File Name="hit1" Hash="1802472131" Timestamp="131476364320000000"/>
+			</Language>
+			<Language ID="393239870">
+				<File Name="BGM_battle" Hash="2766603393" Timestamp="131476639770000000"/>
+				<File Name="BGM_title" Hash="2707209644" Timestamp="131476639770000000"/>
+				<File Name="Init" Hash="678124862" Timestamp="131476608080000000"/>
+				<File Name="back" Hash="1278356711" Timestamp="131476639770000000"/>
+				<File Name="hit" Hash="1184146186" Timestamp="131476639770000000"/>
+				<File Name="hit1" Hash="1437866709" Timestamp="131476377310000000"/>
+				<File Name="next" Hash="1308870080" Timestamp="131476639770000000"/>
+				<File Name="start" Hash="3227315858" Timestamp="131476639770000000"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="474565580" Timestamp="131476639770000000"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+	<Platform GUID="{8CC1C84E-B935-4C5A-A828-938F2AFF27B3}">
+		<Banks>
+			<Language ID="0">
+				<File Name="Init" Hash="593700967" Timestamp="131476364330000000"/>
+				<File Name="hit1" Hash="1802472131" Timestamp="131476364330000000"/>
+			</Language>
+			<Language ID="393239870">
+				<File Name="BGM_battle" Hash="2766603393" Timestamp="131476639790000000"/>
+				<File Name="BGM_title" Hash="2707209644" Timestamp="131476639790000000"/>
+				<File Name="Init" Hash="1790839716" Timestamp="131476608100000000"/>
+				<File Name="back" Hash="1278356711" Timestamp="131476639780000000"/>
+				<File Name="hit" Hash="1184146186" Timestamp="131476639790000000"/>
+				<File Name="hit1" Hash="1437866709" Timestamp="131476377320000000"/>
+				<File Name="next" Hash="1308870080" Timestamp="131476639790000000"/>
+				<File Name="start" Hash="3227315858" Timestamp="131476639790000000"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="2587435456" Timestamp="131476639790000000"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+	<Platform GUID="{0124BBF6-671E-4E5E-A5FB-320536F8E631}">
+		<Banks>
+			<Language ID="0">
+				<File Name="Init" Hash="1814490839" Timestamp="131476364310000000"/>
+				<File Name="hit1" Hash="1802472131" Timestamp="131476364310000000"/>
+			</Language>
+			<Language ID="393239870">
+				<File Name="BGM_battle" Hash="2766603393" Timestamp="131476639760000000"/>
+				<File Name="BGM_title" Hash="2707209644" Timestamp="131476639760000000"/>
+				<File Name="Init" Hash="2403423692" Timestamp="131476608060000000"/>
+				<File Name="back" Hash="1278356711" Timestamp="131476639760000000"/>
+				<File Name="hit" Hash="1184146186" Timestamp="131476639760000000"/>
+				<File Name="hit1" Hash="1437866709" Timestamp="131476377300000000"/>
+				<File Name="next" Hash="1308870080" Timestamp="131476639760000000"/>
+				<File Name="start" Hash="3227315858" Timestamp="131476639760000000"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="3284933826" Timestamp="131476639760000000"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+</IncrementalBankBuild>
