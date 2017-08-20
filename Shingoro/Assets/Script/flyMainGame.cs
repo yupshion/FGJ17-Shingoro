@@ -7,7 +7,7 @@ public class flyMainGame : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		AkSoundEngine.PostEvent("BGM_title", gameObject);
+	//	AkSoundEngine.PostEvent("BGM_title", gameObject);
 
     
 	}
@@ -18,7 +18,7 @@ public class flyMainGame : MonoBehaviour {
 	}
 
     public void movescene() {
-		AkSoundEngine.PostEvent("next", gameObject);
+	//	AkSoundEngine.PostEvent("next", gameObject);
         SceneManager.LoadScene("GameMain");
     }
 }
