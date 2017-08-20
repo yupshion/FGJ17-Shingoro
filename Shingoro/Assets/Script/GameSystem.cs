@@ -24,6 +24,9 @@ public class GameSystem : MonoBehaviour {
 		finished = false;
 		//GameTime;
 		GameTimeText.text = "" + GameTime.ToString();
+		AkSoundEngine.PostEvent("start", gameObject);
+		AkSoundEngine.PostEvent("BGM_battle", gameObject);
+
 	}
 	
 	// Update is called once per frame
