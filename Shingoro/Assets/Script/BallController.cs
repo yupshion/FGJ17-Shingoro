@@ -8,6 +8,7 @@ public class BallController : MonoBehaviour
     public Vector3 targetPos;       //目標とする位置
     public Vector3 targetPos1, targetPos2, targetPos3, targetPos4;       //目標とする位置
 
+    //バネ計算
     Vector3 acc1, acc2, acc3, acc4;
     Vector3 vel1, vel2, vel3, vel4;
     Vector3 pos1, pos2, pos3, pos4;
@@ -109,8 +110,8 @@ public class BallController : MonoBehaviour
         if (OnTouchDown())
         {
            
-            this.pos = Camera.main.ScreenPointToRay(Input.mousePosition).origin;
-            this.pos.z = 0;
+            //this.pos = Camera.main.ScreenPointToRay(Input.mousePosition).origin;
+            //this.pos.z = 0;
         }
         else
         {
@@ -147,7 +148,19 @@ public class BallController : MonoBehaviour
             this.vel4 += this.acc4;
             this.vel4 *= 0.9f;
             Glove4.transform.position += this.vel4;
+
+            //各べこの角度を計算する
+            //べこ左(p1L)
+          //  Glove1.transform.rotation = new Quaternion(0, 0, 0, 0);
+          //  Glove2.transform.rotation = new Quaternion(0, 0, 0, 0);
+          //  Glove3.transform.rotation = new Quaternion(0, 0, 0, 0);
+          //  Glove4.transform.rotation = new Quaternion(0, 0, 0, 0);
+            //Glove1.transform.rotation = new Quaternion(0, 0, GetAim(Glove1.transform.position, this.targetPos1 + new Vector3(0, -1, 0)), 1);
+
+            //Glove2.transform.rotation = new Quaternion(0, 0, GetAim(Glove2.transform.position, this.targetPos2 + new Vector3(0, -1, 0)), 1);
+
         }
+
         //transform.position = this.pos;
     }
 
@@ -179,12 +192,21 @@ public class BallController : MonoBehaviour
                             //左
                             Glove1.transform.position = Camera.main.ScreenToWorldPoint(vec);
                             Glove1.transform.position = new Vector3(Glove1.transform.position.x, Glove1.transform.position.y,0);
+
+                            //角度の計算を行う
+                            var diff = (this.targetPos1 - Glove1.transform.position).normalized;
+                            Glove1.transform.rotation = Quaternion.FromToRotation(Vector3.up, diff);
+
                         }
                         else
                         {
                             //右
                             Glove2.transform.position = Camera.main.ScreenToWorldPoint(vec);
                             Glove2.transform.position = new Vector3(Glove2.transform.position.x, Glove2.transform.position.y, 0);
+
+                            //角度の計算を行う
+                            var diff = (this.targetPos2 - Glove2.transform.position).normalized;
+                            Glove2.transform.rotation = Quaternion.FromToRotation(Vector3.up, diff);
                         }
 
                     }
@@ -196,12 +218,18 @@ public class BallController : MonoBehaviour
                             //左
                             Glove3.transform.position = Camera.main.ScreenToWorldPoint(vec);
                             Glove3.transform.position = new Vector3(Glove3.transform.position.x, Glove3.transform.position.y, 0);
+                            //角度の計算を行う
+                            var diff = (this.targetPos3 - Glove3.transform.position).normalized;
+                            Glove3.transform.rotation = Quaternion.FromToRotation(Vector3.up,diff);
                         }
                         else
                         {
                             //右
                             Glove4.transform.position = Camera.main.ScreenToWorldPoint(vec);
                             Glove4.transform.position = new Vector3(Glove4.transform.position.x, Glove4.transform.position.y, 0);
+                            //角度の計算を行う
+                            var diff = (this.targetPos4 - Glove4.transform.position).normalized;
+                            Glove4.transform.rotation = Quaternion.FromToRotation(Vector3.up, diff);
 
                         }
                     }
@@ -225,6 +253,18 @@ public class BallController : MonoBehaviour
             }
         }
         return false; //タッチされてなかったらfalse
+    }
+
+    // p2からp1への角度を求める
+    // @param p1 自分の座標
+    // @param p2 相手の座標
+    // @return 2点の角度(Degree)
+    public float GetAim(Vector2 p1, Vector2 p2)
+    {
+        float dx = p2.x - p1.x;
+        float dy = p2.y - p1.y;
+        float rad = Mathf.Atan2(dy, dx);
+        return rad * Mathf.Rad2Deg;
     }
 
 }
