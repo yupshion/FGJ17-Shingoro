@@ -45,6 +45,20 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="springpull" ID="{549C34DF-E6B3-4C06-A8C5-7E7D0053B284}">
+					<ObjectInclusionList>
+						<ObjectRef Name="springpull" ID="{863DE972-1C1E-4A0D-A7DB-33A35E4DA1F3}" WorkUnitID="{46225245-2B98-4066-A17E-5A5627668586}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="result" ID="{1ACEC8CE-103F-4FFF-B936-C812656494EC}">
+					<ObjectInclusionList>
+						<ObjectRef Name="result" ID="{D266C080-5128-428E-97F7-BEDA582513B9}" WorkUnitID="{46225245-2B98-4066-A17E-5A5627668586}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

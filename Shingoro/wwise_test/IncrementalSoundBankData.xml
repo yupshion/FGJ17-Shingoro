@@ -7,19 +7,21 @@
 				<File Name="hit1" Hash="1802472131" Timestamp="131476364330000000"/>
 			</Language>
 			<Language ID="393239870">
-				<File Name="BGM_battle" Hash="2766603393" Timestamp="131476639780000000"/>
+				<File Name="BGM_battle" Hash="1840292694" Timestamp="131476708710000000"/>
 				<File Name="BGM_title" Hash="2707209644" Timestamp="131476639780000000"/>
-				<File Name="Init" Hash="3464367062" Timestamp="131476608090000000"/>
+				<File Name="Init" Hash="135450759" Timestamp="131476687040000000"/>
 				<File Name="back" Hash="1278356711" Timestamp="131476639780000000"/>
 				<File Name="hit" Hash="1184146186" Timestamp="131476639780000000"/>
 				<File Name="hit1" Hash="1437866709" Timestamp="131476377320000000"/>
 				<File Name="next" Hash="1308870080" Timestamp="131476639780000000"/>
+				<File Name="result" Hash="2992995402" Timestamp="131476742430000000"/>
+				<File Name="springpull" Hash="2699859266" Timestamp="131476719410000000"/>
 				<File Name="start" Hash="3227315858" Timestamp="131476639780000000"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3420015966" Timestamp="131476639780000000"/>
+				<File Name="" Hash="62910458" Timestamp="131476742430000000"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -30,19 +32,21 @@
 				<File Name="hit1" Hash="1802472131" Timestamp="131476364320000000"/>
 			</Language>
 			<Language ID="393239870">
-				<File Name="BGM_battle" Hash="2766603393" Timestamp="131476639770000000"/>
+				<File Name="BGM_battle" Hash="1840292694" Timestamp="131476708700000000"/>
 				<File Name="BGM_title" Hash="2707209644" Timestamp="131476639770000000"/>
-				<File Name="Init" Hash="678124862" Timestamp="131476608080000000"/>
+				<File Name="Init" Hash="3097849315" Timestamp="131476687040000000"/>
 				<File Name="back" Hash="1278356711" Timestamp="131476639770000000"/>
 				<File Name="hit" Hash="1184146186" Timestamp="131476639770000000"/>
 				<File Name="hit1" Hash="1437866709" Timestamp="131476377310000000"/>
 				<File Name="next" Hash="1308870080" Timestamp="131476639770000000"/>
+				<File Name="result" Hash="2992995402" Timestamp="131476742420000000"/>
+				<File Name="springpull" Hash="2699859266" Timestamp="131476719410000000"/>
 				<File Name="start" Hash="3227315858" Timestamp="131476639770000000"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="474565580" Timestamp="131476639770000000"/>
+				<File Name="" Hash="458842372" Timestamp="131476742420000000"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -53,19 +57,21 @@
 				<File Name="hit1" Hash="1802472131" Timestamp="131476364330000000"/>
 			</Language>
 			<Language ID="393239870">
-				<File Name="BGM_battle" Hash="2766603393" Timestamp="131476639790000000"/>
+				<File Name="BGM_battle" Hash="1840292694" Timestamp="131476708720000000"/>
 				<File Name="BGM_title" Hash="2707209644" Timestamp="131476639790000000"/>
-				<File Name="Init" Hash="1790839716" Timestamp="131476608100000000"/>
+				<File Name="Init" Hash="1177958401" Timestamp="131476687050000000"/>
 				<File Name="back" Hash="1278356711" Timestamp="131476639780000000"/>
 				<File Name="hit" Hash="1184146186" Timestamp="131476639790000000"/>
 				<File Name="hit1" Hash="1437866709" Timestamp="131476377320000000"/>
 				<File Name="next" Hash="1308870080" Timestamp="131476639790000000"/>
+				<File Name="result" Hash="2992995402" Timestamp="131476742440000000"/>
+				<File Name="springpull" Hash="2699859266" Timestamp="131476719420000000"/>
 				<File Name="start" Hash="3227315858" Timestamp="131476639790000000"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2587435456" Timestamp="131476639790000000"/>
+				<File Name="" Hash="3899432164" Timestamp="131476742440000000"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -76,19 +82,21 @@
 				<File Name="hit1" Hash="1802472131" Timestamp="131476364310000000"/>
 			</Language>
 			<Language ID="393239870">
-				<File Name="BGM_battle" Hash="2766603393" Timestamp="131476639760000000"/>
+				<File Name="BGM_battle" Hash="1840292694" Timestamp="131476708690000000"/>
 				<File Name="BGM_title" Hash="2707209644" Timestamp="131476639760000000"/>
-				<File Name="Init" Hash="2403423692" Timestamp="131476608060000000"/>
+				<File Name="Init" Hash="669445161" Timestamp="131476687030000000"/>
 				<File Name="back" Hash="1278356711" Timestamp="131476639760000000"/>
 				<File Name="hit" Hash="1184146186" Timestamp="131476639760000000"/>
 				<File Name="hit1" Hash="1437866709" Timestamp="131476377300000000"/>
 				<File Name="next" Hash="1308870080" Timestamp="131476639760000000"/>
+				<File Name="result" Hash="2992995402" Timestamp="131476742420000000"/>
+				<File Name="springpull" Hash="2699859266" Timestamp="131476719400000000"/>
 				<File Name="start" Hash="3227315858" Timestamp="131476639760000000"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3284933826" Timestamp="131476639760000000"/>
+				<File Name="" Hash="1813715502" Timestamp="131476742420000000"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

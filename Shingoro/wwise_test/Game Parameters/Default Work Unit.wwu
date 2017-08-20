@@ -8,6 +8,12 @@
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="BGM_battlepitch" ID="{CBA024D9-57AA-4789-A856-00E5D48A11F0}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="60"/>
+						<Property Name="Max" Type="Real64" Value="60"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

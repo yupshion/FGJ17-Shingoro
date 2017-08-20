@@ -50,6 +50,7 @@ public class GameSystem : MonoBehaviour {
 
 			GameTime -= 1f * Time.deltaTime;
 			GameTimeText.text = ((int)GameTime).ToString ();
+			AkSoundEngine.SetRTPCValue("BGM_battlepitch", ((float)GameTime), gameObject);
 
 			if (GameTime < 0) {
 

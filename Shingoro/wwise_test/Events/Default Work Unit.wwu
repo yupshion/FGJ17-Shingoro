@@ -45,7 +45,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="springpull" ID="{863DE972-1C1E-4A0D-A7DB-33A35E4DA1F3}"/>
+				<Event Name="springpull" ID="{863DE972-1C1E-4A0D-A7DB-33A35E4DA1F3}">
+					<ChildrenList>
+						<Action Name="" ID="{3AABEF51-B187-446C-B362-B10994FB4692}" ShortID="552644896">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="spring" ID="{5C6DDBD1-8E0B-4596-A90B-7F6ABFAB26D2}" WorkUnitID="{F63C7FE0-FBDF-40C0-91E2-D4B4502E3BF0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="next" ID="{2C6CE878-9743-41F8-BF59-486C97A0E940}">
 					<ChildrenList>
 						<Action Name="" ID="{0580F002-AA16-4589-8F95-62D3148ED62B}" ShortID="574511288">
@@ -111,6 +124,20 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="BGM_battle" ID="{37FE0C6B-978F-458D-9207-20E5B9F6E2E3}" WorkUnitID="{F63C7FE0-FBDF-40C0-91E2-D4B4502E3BF0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="result" ID="{D266C080-5128-428E-97F7-BEDA582513B9}">
+					<ChildrenList>
+						<Action Name="" ID="{611074A6-EA47-4624-B252-C319550D3527}" ShortID="262672231">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="result" ID="{F1F92AA1-7E4C-446C-822B-DF8F1517F7CF}" WorkUnitID="{F63C7FE0-FBDF-40C0-91E2-D4B4502E3BF0}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

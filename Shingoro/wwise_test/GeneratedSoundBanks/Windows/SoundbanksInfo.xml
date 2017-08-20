@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="125">
 	<RootPaths>
-		<ProjectRoot>/Users/cobaltr/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/Shingoro beta/wwise_test/</ProjectRoot>
-		<SourceFilesRoot>/Users/cobaltr/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/Shingoro beta/wwise_test/.cache/Windows/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/cobaltr/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/Shingoro beta/wwise_test/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ProjectRoot>/Users/cobaltr/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/Shingoro beta_wwise/wwise_test/</ProjectRoot>
+		<SourceFilesRoot>/Users/cobaltr/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/Shingoro beta_wwise/wwise_test/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/cobaltr/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/Shingoro beta_wwise/wwise_test/GeneratedSoundBanks/Windows/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/cobaltr/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/Shingoro beta/wwise_test/GeneratedSoundBanks/Windows/</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/cobaltr/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/Shingoro beta_wwise/wwise_test/GeneratedSoundBanks/Windows/</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -22,6 +22,20 @@
 				<File Id="553484404" Language="SFX">
 					<ShortName>BGM_title.wav</ShortName>
 					<Path>SFX/BGM_title_9452F465.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="936499202" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\result</ObjectPath>
+			<ShortName>result</ShortName>
+			<Path>result.bnk</Path>
+			<IncludedEvents>
+				<Event Id="936499202" Name="result" ObjectPath="\Events\Default Work Unit\result"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="65729236" Language="SFX">
+					<ShortName>result.wav</ShortName>
+					<Path>SFX/result_53CEE377.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -117,6 +131,44 @@
 				<File Id="477537827" Language="SFX">
 					<ShortName>BGM_battle.wav</ShortName>
 					<Path>SFX/BGM_battle_9452F465.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="4184398983" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\springpull</ObjectPath>
+			<ShortName>springpull</ShortName>
+			<Path>springpull.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4184398983" Name="springpull" ObjectPath="\Events\Default Work Unit\springpull"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="15250146" Language="SFX">
+					<ShortName>springpull_3.wav</ShortName>
+					<Path>SFX/springpull_3_A1CB93DD.wem</Path>
+				</File>
+				<File Id="19604038" Language="SFX">
+					<ShortName>springpull_5.wav</ShortName>
+					<Path>SFX/springpull_5_21A78296.wem</Path>
+				</File>
+				<File Id="319325473" Language="SFX">
+					<ShortName>springpull_1.wav</ShortName>
+					<Path>SFX/springpull_1_E5EABAA6.wem</Path>
+				</File>
+				<File Id="358457252" Language="SFX">
+					<ShortName>springpull_4.wav</ShortName>
+					<Path>SFX/springpull_4_00D076B1.wem</Path>
+				</File>
+				<File Id="449945891" Language="SFX">
+					<ShortName>springpull_6.wav</ShortName>
+					<Path>SFX/springpull_6_102046CF.wem</Path>
+				</File>
+				<File Id="866065800" Language="SFX">
+					<ShortName>springpull_2.wav</ShortName>
+					<Path>SFX/springpull_2_C7CBC238.wem</Path>
+				</File>
+				<File Id="876344272" Language="SFX">
+					<ShortName>springpull_7.wav</ShortName>
+					<Path>SFX/springpull_7_B9962C93.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

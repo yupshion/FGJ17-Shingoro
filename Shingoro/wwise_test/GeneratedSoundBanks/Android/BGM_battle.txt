@@ -1,6 +1,9 @@
 Event	ID	Name			Wwise Object Path	Notes
 	2944413750	BGM_battle			\Default Work Unit\BGM_battle	
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1258355168	BGM_battlepitch			\Default Work Unit\BGM_battlepitch	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	477537827	BGM_battle	Y:\Desktop\Shingoro beta\wwise_test\.cache\Android\SFX\BGM_battle_9452F465.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM_battle		15444576
+	477537827	BGM_battle	Y:\Desktop\Shingoro beta_wwise\wwise_test\.cache\Android\SFX\BGM_battle_9452F465.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM_battle		15444576
 

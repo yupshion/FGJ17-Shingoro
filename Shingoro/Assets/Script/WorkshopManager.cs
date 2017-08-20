@@ -13,6 +13,9 @@ public class WorkshopManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
+		AkSoundEngine.PostEvent("result", gameObject);
+
+
 		float marge = Screen.height / 6;
 
 		int idx = Random.Range (1, 14);
