@@ -49,7 +49,7 @@ public class Bashi_SoundEffect_script : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D collision)
 	{
 		//audioSource.Play();
-		AkSoundEngine.PostEvent("hit", gameObject);
+	//	AkSoundEngine.PostEvent("hit", gameObject);
 
 		MochiAttackCount++;
 	}
