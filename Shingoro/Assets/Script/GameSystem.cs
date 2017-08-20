@@ -9,6 +9,10 @@ public class GameSystem : MonoBehaviour {
 	public float GameTime = 60f;
 	public Text GameTimeText;
 
+	public Image CountTime;
+	public bool loop;
+	public float countTime;
+
 	[SerializeField]
 	private GameObject P1Win;
 	[SerializeField]
@@ -35,7 +39,7 @@ public class GameSystem : MonoBehaviour {
 		GameTimeText.text = "" + GameTime.ToString();
 		AkSoundEngine.PostEvent("start", gameObject);
 		AkSoundEngine.PostEvent("BGM_battle", gameObject);
-
+		countTime = GameTime;
 	}
 	
 	// Update is called once per frame
@@ -60,6 +64,14 @@ public class GameSystem : MonoBehaviour {
 				oshingoroed = true;
 			}
 		}
+
+		if (loop) {
+
+
+			CountTime.fillAmount -= 1.0f / countTime * Time.deltaTime;
+
+		}
+
 	}
 
 

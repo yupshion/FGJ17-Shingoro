@@ -16,6 +16,7 @@ public class flyMainGame : MonoBehaviour {
 	}
 
     public void movescene() {
+		AkSoundEngine.PostEvent("next", gameObject);
         SceneManager.LoadScene("GameMain");
     }
 }

@@ -8,6 +8,7 @@ public class flyreadytoplay : MonoBehaviour {
 
     public void movereadytoplay()
     {
+		AkSoundEngine.PostEvent("next", gameObject);
         SceneManager.LoadScene("readytoplay");
     }
 }

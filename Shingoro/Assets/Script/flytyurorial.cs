@@ -7,6 +7,7 @@ public class flytyurorial : MonoBehaviour {
 
     public void movetyutorial()
     {
+		AkSoundEngine.PostEvent("next", gameObject);
         SceneManager.LoadScene("howtoplay");
     }
 }
