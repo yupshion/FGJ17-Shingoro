@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1116398592	hit			\Default Work Unit\hit	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	392488808	hit_middle_2	Y:\Desktop\Shingoro beta\wwise_test\.cache\Android\SFX\hit_middle_2_FDE5A151.wem		\Actor-Mixer Hierarchy\Default Work Unit\hit_middle\hit_middle_2		24580
+	531972472	hit_tail_2	Y:\Desktop\Shingoro beta\wwise_test\.cache\Android\SFX\hit_tail_2_0CC293B1.wem		\Actor-Mixer Hierarchy\Default Work Unit\hit_tail\hit_tail_2		119880
+	634157147	hit_middle_1	Y:\Desktop\Shingoro beta\wwise_test\.cache\Android\SFX\hit_middle_1_50A23462.wem		\Actor-Mixer Hierarchy\Default Work Unit\hit_middle\hit_middle_1		57336
+	917354115	hit_tail_1	Y:\Desktop\Shingoro beta\wwise_test\.cache\Android\SFX\hit_tail_1_F90C34CE.wem		\Actor-Mixer Hierarchy\Default Work Unit\hit_tail\hit_tail_1		54892
+	985797129	hit_head_2	Y:\Desktop\Shingoro beta\wwise_test\.cache\Android\SFX\hit_head_2_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\hit_head\hit_head_2		61520
+	1006958241	hit_head_1	Y:\Desktop\Shingoro beta\wwise_test\.cache\Android\SFX\hit_head_1_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\hit_head\hit_head_1		67428
+
