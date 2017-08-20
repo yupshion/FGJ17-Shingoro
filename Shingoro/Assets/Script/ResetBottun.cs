@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Reset : MonoBehaviour {
+public class ResetBottun : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
