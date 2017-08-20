@@ -13,7 +13,14 @@ public class GameSystem : MonoBehaviour {
 	private GameObject P1Win;
 	[SerializeField]
 	private GameObject P2Win;
+	[SerializeField]
+	private GameObject mochi;
+	[SerializeField]
+	private GameObject oshingoro;
+
 	private bool finished;
+	private bool oshingoroed;
+	private float oshingoroTime;
 
 
 	private Vector3 posP1 = new Vector3(Screen.width /2 , Screen.height /4, 0);
@@ -22,6 +29,8 @@ public class GameSystem : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		finished = false;
+		oshingoroed = false;
+		oshingoroTime = 3;
 		//GameTime;
 		GameTimeText.text = "" + GameTime.ToString();
 		AkSoundEngine.PostEvent("start", gameObject);
@@ -42,8 +51,15 @@ public class GameSystem : MonoBehaviour {
 				finished = true;
 				CheckResult ();
 			}
-		}
+		} else if(!oshingoroed){
+			oshingoroTime -= 1f * Time.deltaTime;
 
+			if (oshingoroTime < 0) {
+				mochi.SetActive (false);
+				oshingoro.SetActive (true);
+				oshingoroed = true;
+			}
+		}
 	}
 
 
