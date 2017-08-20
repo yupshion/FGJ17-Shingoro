@@ -1,0 +1,15 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4184398983	springpull			\Default Work Unit\springpull	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	4184398983	springpull			\Default Work Unit\springpull	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	15250146	springpull_3	Y:\Desktop\Shingoro beta_wwise\wwise_test\.cache\Android\SFX\springpull_3_A1CB93DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\spring\springpull\springpull_3		21780
+	19604038	springpull_5	Y:\Desktop\Shingoro beta_wwise\wwise_test\.cache\Android\SFX\springpull_5_21A78296.wem		\Actor-Mixer Hierarchy\Default Work Unit\spring\springpull\springpull_5		21956
+	319325473	springpull_1	Y:\Desktop\Shingoro beta_wwise\wwise_test\.cache\Android\SFX\springpull_1_E5EABAA6.wem		\Actor-Mixer Hierarchy\Default Work Unit\spring\springpull\springpull_1		20736
+	358457252	springpull_4	Y:\Desktop\Shingoro beta_wwise\wwise_test\.cache\Android\SFX\springpull_4_00D076B1.wem		\Actor-Mixer Hierarchy\Default Work Unit\spring\springpull\springpull_4		15132
+	449945891	springpull_6	Y:\Desktop\Shingoro beta_wwise\wwise_test\.cache\Android\SFX\springpull_6_102046CF.wem		\Actor-Mixer Hierarchy\Default Work Unit\spring\springpull\springpull_6		15272
+	866065800	springpull_2	Y:\Desktop\Shingoro beta_wwise\wwise_test\.cache\Android\SFX\springpull_2_C7CBC238.wem		\Actor-Mixer Hierarchy\Default Work Unit\spring\springpull\springpull_2		22164
+	876344272	springpull_7	Y:\Desktop\Shingoro beta_wwise\wwise_test\.cache\Android\SFX\springpull_7_B9962C93.wem		\Actor-Mixer Hierarchy\Default Work Unit\spring\springpull\springpull_7		15256
+

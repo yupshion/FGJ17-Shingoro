@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1281810935	start			\Default Work Unit\start	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1060621102	start	Y:\Desktop\Shingoro beta\wwise_test\.cache\iOS\SFX\start_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\start		210108
+

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3232033841	hit1			\Default Work Unit\hit1	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	43080894	hit_ver1	Y:\Desktop\Shingoro\wwise_test\.cache\Mac\SFX\hit_ver1_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\hit_ver1		133276
+

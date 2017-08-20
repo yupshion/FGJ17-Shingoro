@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{02EC363F-9ED9-4936-995D-AA5701ABF6F5}" SchemaVersion="80">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{02EC363F-9ED9-4936-995D-AA5701ABF6F5}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="hit" ID="{93E78D40-F074-4663-8C5A-06F996AE4A89}">
+					<ObjectInclusionList>
+						<ObjectRef Name="hit" ID="{F6B55E8F-2C9D-4185-AA73-42D6600F7BC3}" WorkUnitID="{46225245-2B98-4066-A17E-5A5627668586}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="next" ID="{BED46FFD-1A5C-4A48-B36E-F22BD830FCDD}">
+					<ObjectInclusionList>
+						<ObjectRef Name="next" ID="{2C6CE878-9743-41F8-BF59-486C97A0E940}" WorkUnitID="{46225245-2B98-4066-A17E-5A5627668586}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="back" ID="{46F69B66-FFFF-49F9-B2DB-711BD9F11342}">
+					<ObjectInclusionList>
+						<ObjectRef Name="back" ID="{BE54A89C-4D84-4B9E-B64E-F13FF709915B}" WorkUnitID="{46225245-2B98-4066-A17E-5A5627668586}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="start" ID="{51CC7575-03F5-4A26-A5B0-9DA14610B805}">
+					<ObjectInclusionList>
+						<ObjectRef Name="start" ID="{2233AF3A-CEC4-44E7-BBDD-ABBF21461D6B}" WorkUnitID="{46225245-2B98-4066-A17E-5A5627668586}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="BGM_title" ID="{23B42764-1A17-4209-A644-19CB8A762C25}">
+					<ObjectInclusionList>
+						<ObjectRef Name="BGM_title" ID="{5EB0C5F6-8D49-413A-A848-17D8657FD931}" WorkUnitID="{46225245-2B98-4066-A17E-5A5627668586}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="BGM_battle" ID="{4FA64713-C6BF-473E-96A9-ABA5028BEEDC}">
+					<ObjectInclusionList>
+						<ObjectRef Name="BGM_battle" ID="{F5B04956-11E4-4770-B928-1EB074C6A2B2}" WorkUnitID="{46225245-2B98-4066-A17E-5A5627668586}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="springpull" ID="{549C34DF-E6B3-4C06-A8C5-7E7D0053B284}">
+					<ObjectInclusionList>
+						<ObjectRef Name="springpull" ID="{863DE972-1C1E-4A0D-A7DB-33A35E4DA1F3}" WorkUnitID="{46225245-2B98-4066-A17E-5A5627668586}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="result" ID="{1ACEC8CE-103F-4FFF-B936-C812656494EC}">
+					<ObjectInclusionList>
+						<ObjectRef Name="result" ID="{D266C080-5128-428E-97F7-BEDA582513B9}" WorkUnitID="{46225245-2B98-4066-A17E-5A5627668586}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

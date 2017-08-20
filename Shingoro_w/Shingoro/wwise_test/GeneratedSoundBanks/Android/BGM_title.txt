@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	737535402	BGM_title			\Default Work Unit\BGM_title	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	553484404	BGM_title	Y:\Desktop\Shingoro beta\wwise_test\.cache\Android\SFX\BGM_title_9452F465.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM_title		4838464
+

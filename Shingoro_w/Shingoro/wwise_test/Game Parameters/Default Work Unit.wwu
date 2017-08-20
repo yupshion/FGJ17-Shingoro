@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{51DCAE65-9E2E-403E-A0B8-1EDAAE50FDC8}" SchemaVersion="80">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{51DCAE65-9E2E-403E-A0B8-1EDAAE50FDC8}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="springpull" ID="{470ADEEB-3F74-4638-8D82-DEBAE904FDE7}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="BGM_battlepitch" ID="{CBA024D9-57AA-4789-A856-00E5D48A11F0}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="60"/>
+						<Property Name="Max" Type="Real64" Value="60"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
