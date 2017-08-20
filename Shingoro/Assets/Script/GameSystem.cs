@@ -40,6 +40,7 @@ public class GameSystem : MonoBehaviour {
 		AkSoundEngine.PostEvent("start", gameObject);
 		AkSoundEngine.PostEvent("BGM_battle", gameObject);
 		countTime = GameTime;
+
 	}
 	
 	// Update is called once per frame
